@@ -1,0 +1,12 @@
+.list {
+  text-align: center;
+}
+
+.item {
+  list-style: none;
+  font-size: 21px;
+}
+
+.item:last-child {
+  font-weight: 700;
+}

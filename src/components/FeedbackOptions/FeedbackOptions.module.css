@@ -1,0 +1,25 @@
+.btn {
+  padding: 5px 10px;
+  width: 145px;
+  font-size: 20px;
+  font-weight: 400;
+  border: 2px solid #ebe8e8;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 2px rgb(34 60 80 / 20%);
+}
+
+.btn + .btn {
+  margin-left: 25px;
+}
+
+.btn:hover {
+  background: rgb(252, 176, 69);
+  background: linear-gradient(
+    138deg,
+    rgba(252, 176, 69, 1) 0%,
+    rgba(253, 29, 29, 1) 100%
+  );
+  border: none;
+  color: #fff;
+  font-weight: 600;
+}
